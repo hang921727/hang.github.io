@@ -1,15 +1,15 @@
 ###########
 # site.title, site.url, site.author.name
 
-title:   'BLOG'
+title: 'Hang's Blog'
 author:
-  name:  'Hong'
+  name:  'Hang'
 
 ## 提示: 
 #  在您的模板中使用site.path，使其适用于两种协议，例如 http和https
 #  使用site.url仅内部的网络馈源模板（外部需要完整的含协议的URL）
 
-path: /main
+path: /hang.github.io 
 url:  'https://www.qinghaosu.xyz/'
 
 ########
