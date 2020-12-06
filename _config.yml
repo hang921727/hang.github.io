@@ -1,2 +1,4 @@
 theme: jekyll-theme-cayman
 title: welcome to the Hang's homepage
+
+use_math: true
