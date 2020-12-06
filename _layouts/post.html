@@ -2,7 +2,10 @@
 layout: default
 ---
 
-<h1>{{ page.title }}</h1>
-<p>{{ page.date | date_to_string }} - {{ page.author }}</p>
+<article class='post'>
+  <h1 class='post-title'>{{ page.title }}</h1>
+  {% assign sinple_path_date = page.path | remove: "_posts/" | split: "-" %}
+  <div class="post-date">{{ sinple_path_date[0] | append: "-" | append: sinple_path_date[1] | append: "-" | append: sinple_path_date[2] | date: "%F" }}</div>
+  {{ content }}
+</article>
 
-{{ content }}
