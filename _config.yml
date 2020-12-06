@@ -8,7 +8,7 @@ author:
 #  在您的模板中使用site.path，使其适用于两种协议，例如 http和https
 #  使用site.url仅内部的网络馈源模板（外部需要完整的含协议的URL）
 
-path: /hang.github.io 
+site.path: /hang.github.io 
 url:  'https://www.qinghaosu.xyz/'
 site.url: 'https://github.com/hang921727/hang.github.io'
 
