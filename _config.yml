@@ -1,30 +1,63 @@
-# site.title, site.url, site.author.name
+# Site settings
+title: Hang # 你的博客名字，可以定义修订
+header-img: "img/green.jpg"
+tagline: "cn"  
+description: "私人博客"  # 一句话描述你的博客
+baseurl: ""
+url: "http://www.qinghaosu.xyz"  # 此处填写你的博客地址 
 
-title: 'BLOG'
-author:
-  name:  'Hang'
+# About/contact
+owner: 
+  name: "宅纪航" # 填写作者信息：名字
+  email: 1558901061@qq.com # 填写作者信息：邮箱
+  bio: "你的博客描述" # 填写作者信息：博客描述
 
-## 提示: 
-#  在您的模板中使用site.path，使其适用于两种协议，例如 http和https
-#  使用site.url仅内部的网络馈源模板（外部需要完整的含协议的URL）
+# Data
+gavatar: img/favicon.png # 浏览器地址栏小图标，可自定义更改
+favicon: img/favicon.png # 浏览器地址栏小图标，可自定义更改
 
-site.path: /hang.github.io 
-url:  'https://www.qinghaosu.xyz/'
-site.url: 'https://github.com/hang921727/hang.github.io'
+douban_username:  # 你的豆瓣id
+twitter_username: 
+github_username: hang921727
+facebook_username: 
+weibo_username: 
+zhihu_username: 
 
-########
-# 更多设置
-
+# Build settings  
+# use Github Flavored Markdown !important  
+# document: http://jekyllrb.com/docs/configuration/#kramdown  
 markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 8
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
-sass:
-  sass_dir: css
-  style:    expanded
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Shanghai
 
-permalink: /:title.html
+# Defaults for posts
+defaults:
+  -
+    scope: 
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "翟纪航" # 你的名字
+      header-img: "img/green.jpg" # We don't want posts without a header image, that whould mean white on white
 
-exclude:
-- README.md
+# Comments 
+comments :
+  provider : disqus # 使用 disqus 评论模块，读者翻墙才能看见
+  duoshuo :
+    short_name :  # 填写你的 disqus id
+  disqus :
+      short_name :  # 填写你的 disqus id
 
-safe: true
-lsi: false
+# Analytics and webmaster tools stuff goes here
+#google_analytics:  # 填写你  google_analytics id
+#google_verify:
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+#bing_verify:
+
+# Links to include in footer navigation
