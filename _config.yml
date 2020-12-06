@@ -1,16 +1,16 @@
 ###########
 # site.title, site.url, site.author.name
 
-title:   'Jekyll Minimal Theme 中文简体版'
+title:   'BLOG'
 author:
-  name:  'Jekyll Minimal Theme Team'
+  name:  'Hong'
 
 ## 提示: 
 #  在您的模板中使用site.path，使其适用于两种协议，例如 http和https
 #  使用site.url仅内部的网络馈源模板（外部需要完整的含协议的URL）
 
-path: /jekyll-minimal-theme-zh-cmn-hans
-url:  'http://gledos.science/jekyll-minimal-theme-zh-cmn-hans/'
+path: /main
+url:  'https://www.qinghaosu.xyz/'
 
 ########
 # 更多设置
