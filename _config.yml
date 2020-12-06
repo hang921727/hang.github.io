@@ -2,3 +2,21 @@ theme: jekyll-theme-cayman
 title: welcome to the Hang's homepage
 
 use_math: true
+
+
+nav:
+- name: Home
+  link: /
+- name: About
+  link: /about.html
+
+// 以下嵌入页面，page.url以 "/" 开头
+<nav>
+  {% for item in site.nav %}
+    <a href="{{ item.link }}" 
+      {% if page.url == item.link %} style="color: red;" {% endif %}
+    >
+      {{ item.name }}
+    </a>
+  {% endfor %}
+</nav>
