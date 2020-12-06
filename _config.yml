@@ -1,7 +1,6 @@
-###########
 # site.title, site.url, site.author.name
 
-title: 'Hang's Blog'
+title: 'BLOG'
 author:
   name:  'Hang'
 
@@ -11,6 +10,7 @@ author:
 
 path: /hang.github.io 
 url:  'https://www.qinghaosu.xyz/'
+site.url: 'https://github.com/hang921727/hang.github.io'
 
 ########
 # 更多设置
