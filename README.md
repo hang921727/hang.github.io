@@ -1,5 +1,6 @@
 # hang.github.io
-这是一个私人博客(www.qinghaosu.xyz)，模板Fork：(https://github.com/cnfeat)    
+这是一个私人博客www.qinghaosu.xyz    
+模板Fork：https://github.com/cnfeat     
 
 ----
 ## 在cnfeat原有代码的基础上将tags.md中的Tags改为tags    
