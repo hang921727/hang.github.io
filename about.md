@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "About"
-description: "关于这个人 " 
+description: "关于这个人 "
 header-img: "img/green.jpg"
 ---
 
@@ -10,5 +10,3 @@ header-img: "img/green.jpg"
 # 这个人已经有女朋友
 
 # 。。。。。。。。。。。。。。。。。。
-
-
