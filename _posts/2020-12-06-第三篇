@@ -1,0 +1,58 @@
+---
+layout: post
+title: 一个自用的latex模板
+date: 2020-12-06
+categories: blog
+tags: [read,latex]
+description: 写
+---    
+# 因为本人是药学专业，所以可能会用到某些离子什么的，备注里面已经写了，使用的时候直接粘贴就可以。 
+
+```
+\documentclass[10pt,oneside,onecolumn,utf8]{article}
+\usepackage{ctex}
+\usepackage{geometry}
+\usepackage{chemformula}
+\usepackage{graphicx}       %插图用1
+\usepackage{subfigure}      %插图用2
+\usepackage{float}          %插图用3
+
+\geometry{a4paper,left=30mm,right=25mm,top=20mm,bottom=25mm}
+\title{\huge \textbf{XXX} \\ {\Large\itshape XXX}}
+\author{}
+\date{\today}
+
+\begin{document}
+\songti{
+    \zihao{4}
+\maketitle
+%日常写作：
+%	\noindent是首行不缩进换行
+%	\par是直接换行
+%	\newpage是换页
+%	\begin{flushleft}
+%	\end{flushleft}		    这一组是强制左对齐，left可以替换成right。
+%	\begin{center}		    这一组是居中对齐的意思。
+%	\uline{这里面的东西可以使用下划线}
+%	\uppercase\expandafter{\romannumeral1}                    罗马数字
+%	$a^{3}$ $a_{3}$		    输入上标与下标
+%	\frac{分子}{分母}	     输分式
+%\begin{figure}[htbp]	  插图用
+%    \centering 		    插图用
+%	\includegraphics[width=0.6\linewidth]{figures/Eye.png}		插图用
+%   \caption{name.}
+%   \label{ref1}		    插图用
+%   \end{figure}		    插图用
+%   \par                插图用
+%   $\beta$             特殊字符
+%   $\alpha$            特殊字符
+
+
+
+\section*{\textbf{}}
+
+\section*{\textbf{}}
+	
+}
+\end{document}	
+```	
